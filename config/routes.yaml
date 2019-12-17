@@ -1,3 +1,23 @@
 landing:
   path: /
   controller: App\Controller\LandingController::index
+
+about:
+  path: /about
+  controller: App\Controller\LandingController::about
+
+domain:
+  path: /domain
+  controller: App\Controller\LandingController::domain
+
+hosting:
+  path: /hosting
+  controller: App\Controller\LandingController::hosting
+
+blog:
+  path: /blog
+  controller: App\Controller\LandingController::blog
+
+contact:
+  path: /contact
+  controller: App\Controller\LandingController::contact
