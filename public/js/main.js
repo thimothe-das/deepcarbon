@@ -44,13 +44,13 @@
 
 	var carousel = function() {
 		$('.home-slider').owlCarousel({
-	    loop:true,
+		loop:true,
+		autoplayHoverPause: true,
 	    autoplay: true,
 	    margin:0,
 	    animateOut: 'fadeOut',
 	    animateIn: 'fadeIn',
-	    nav:false,
-	    autoplayHoverPause: false,
+		nav:false,
 	    items: 1,
 	    navText : ["<span class='ion-md-arrow-back'></span>","<span class='ion-chevron-right'></span>"],
 	    responsive:{
@@ -70,7 +70,7 @@
 		});
 		$('.carousel-testimony').owlCarousel({
 			center: true,
-			loop: true,
+			loop: false,
 			items:1,
 			margin: 30,
 			stagePadding: 0,
@@ -81,10 +81,10 @@
 					items: 1
 				},
 				600:{
-					items: 3
+					items: 1
 				},
 				1000:{
-					items: 3
+					items: 1
 				}
 			}
 		});

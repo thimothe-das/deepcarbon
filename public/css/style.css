@@ -7300,9 +7300,9 @@ h1, h2, h3, h4, h5,
   color: #627bed !important; }
 
 .ftco-navbar-light {
-  background: transparent !important;
+  /* background: transparent !important; */
   position: absolute;
-  top: 20px;
+  /* top: 20px; */
   left: 0;
   right: 0;
   z-index: 3; }
@@ -8466,7 +8466,7 @@ textarea.form-control {
   .testimony-section .owl-carousel {
     margin: 0; }
   .testimony-section .owl-carousel .owl-stage-outer {
-    padding-top: 3.5em;
+    /* padding-top: 3.5em; */
     padding-bottom: 2em;
     position: relative; }
   .testimony-section .owl-nav {
@@ -8532,15 +8532,18 @@ textarea.form-control {
   position: relative;
   color: rgba(255, 255, 255, 0.8); }
   .testimony-wrap .user-img {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
     position: relative;
-    margin-top: -75px; }
+    margin-top: -75px;
+    margin: auto;
+    border-radius: 50%;
+    background-color: white; }
     .testimony-wrap .user-img .quote {
       position: absolute;
-      bottom: -10px;
-      right: 0;
+      bottom: -16px;
+      right: -2px;
       width: 40px;
       height: 40px;
       background: white;
@@ -9387,3 +9390,86 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+
+    .logo {
+      width: 35%;
+    }
+
+    .logo-link {
+      width: 15%;
+    }
+
+    .apple-img {
+      width: 44% !important;
+      display: initial !important;
+    }
+
+    .android-img {
+      width: 53% !important;
+      display: initial !important;
+    }
+
+    .diapo1-dc {
+      margin-top: 11% !important;
+      display: initial;
+      width: 50% !important;
+      margin: auto;
+    }
+
+    .diapo2-dc {
+      display: initial;
+      width: 50% !important;
+      margin: auto;
+    }
+
+    .testimony-wrap .text {
+      text-align: center;
+    }
+
+    .isic {
+      border-radius: 50%;
+    }
+
+    .nav-icon {
+      border-radius: 50%;
+      background-color: transparent;
+      width: 30%;
+      margin-top: 12%;
+    margin-right: 11%;
+    }
+
+    .icons-container {
+      padding-left: 3%;
+    }
+
+    .left-icon {
+      position: relative;
+    right: -35%;
+    }
+
+    .right-text {
+      position: relative;
+    right: -142%;
+    text-align: left !important;
+    }
+
+    .videoplayer {
+      position: relative;
+    left: 2%;
+    margin-bottom: 5% !important;
+    margin-bottom: 14% !important;
+    margin-top: 14% !important;
+    }
+
+    .margin-bottom-remover {
+      margin-bottom: 0px !important;
+    }
+
+    .margin-top-remover {
+      margin-top: 0px !important;
+    }
+
+    .footerlist {
+      display: inline-flex;
+    }
